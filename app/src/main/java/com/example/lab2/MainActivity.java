@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
-
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        textAnalyzis = new Counting();
         this.showData = findViewById(R.id.textDisplayData);
         this.editBox = findViewById(R.id.textInputBox);
     }
@@ -44,7 +42,7 @@ class Counting{
     }
     int countWords(String words){
 
-        return Arrays.toString(words.split("\\s|(?<!\\d)[,.](?!\\d)")).length();
-
+        //return Arrays.toString(words.split("\\s|(?<!\\d)[,.](?!\\d)")).length();
+        return words.split("\\s+|,\\s*|\\.\\s*").length;
     }
 }
