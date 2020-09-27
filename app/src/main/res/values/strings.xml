@@ -3,4 +3,11 @@
     <string name="word_count">Word count</string>
     <string name="btncount">Char count</string>
     <string name="information">Information</string>
+    <string name="count_chars">Count chars</string>
+    <string name="number_chars">Number of chars: %d</string>
+    <string name="number_Words">Number of Words: %d</string>
+    <string-array name="countActions">
+        <item>words</item>
+        <item>chars</item>
+    </string-array>
 </resources>

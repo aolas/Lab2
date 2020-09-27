@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/word_count"
-        android:onClick="onBtnWordClick"
+        android:onClick="onBtnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.747"
@@ -34,13 +34,13 @@
 
     <TextView
         android:id="@+id/textDisplayData"
-        android:layout_width="314dp"
-        android:layout_height="33dp"
+        android:layout_width="327dp"
+        android:layout_height="30dp"
         android:layout_marginTop="80dp"
         android:text="@string/information"
         app:layout_constraintBottom_toTopOf="@+id/textInputBox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -58,5 +58,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.297"
         tools:text="1.0, is a number" />
+
+    <Spinner
+        android:id="@+id/spnSelect"
+        android:layout_width="330dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputBox"
+        app:layout_constraintVertical_bias="0.368" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
