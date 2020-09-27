@@ -25,6 +25,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="80dp"
         android:text="@string/information"
+        android:labelFor="@+id/textInputBox"
         app:layout_constraintBottom_toTopOf="@+id/textInputBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.357"
@@ -39,6 +40,7 @@
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="text"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.357"
