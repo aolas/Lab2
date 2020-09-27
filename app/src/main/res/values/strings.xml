@@ -6,6 +6,7 @@
     <string name="count_chars">Count chars</string>
     <string name="number_chars">Number of chars: %d</string>
     <string name="number_Words">Number of Words: %d</string>
+    <string name="empty">No text entered</string>
     <string-array name="countActions">
         <item>words</item>
         <item>chars</item>
