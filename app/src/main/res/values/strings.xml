@@ -4,7 +4,7 @@
     <string name="btncount">Char count</string>
     <string name="information">Information</string>
     <string name="count_chars">Count chars</string>
-    <string name="number_chars">Number of chars: %d</string>
+    <string name="number_chars">Number of Chars: %d</string>
     <string name="number_Words">Number of Words: %d</string>
     <string name="empty">No text entered</string>
     <string-array name="countActions">
