@@ -2,7 +2,7 @@
     <string name="app_name">Lab2</string>
     <string name="word_count">Count</string>
     <string name="btncount">Char count</string>
-    <string name="information">Information</string>
+    <string name="information">Can not be empty </string>
     <string name="count_chars">Count chars</string>
     <string name="number_chars">Number of Chars: %d</string>
     <string name="number_Words">Number of Words: %d</string>
