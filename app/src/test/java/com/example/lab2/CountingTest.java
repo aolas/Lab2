@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
 public class CountingTest extends TestCase {
     Counting textAnalyzis;
 
+    @Test
     public void testCounting() {
         String oneWord = "word",message;
         String  twoWords = "a b";
